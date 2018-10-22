@@ -24,24 +24,34 @@ header nav a {
   margin: 20px;
   padding: 10px 20px;
   font-size: 30px;
-  font-style: bold;
 }
 header nav a:hover {
   background-color: #eef5db;
   border-radius: 50px;
 }
-h1,h2,h3 {
+h1,h2,h4{
   padding: 10px;
 }
-p {
+h3 {
   padding: 10px;
+  font-style: italic;
+}
+p {
+  padding-left: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: 40px;
+
 }
 #inicio {
   margin: auto;
   margin-top: 20px;
 }
-#logo {
-  padding: 20px 20px;
+.logo {
+  padding: 10px;
+  margin: auto;
+  display: block;
+
 }
 footer {
   background-color: #c7efcf;
