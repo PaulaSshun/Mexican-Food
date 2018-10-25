@@ -33,7 +33,6 @@ h1,h2,h4{
   padding: 10px;
 }
 h3 {
-  padding: 10px;
   font-style: italic;
 }
 p {
@@ -50,10 +49,16 @@ p {
 }
 .logo {
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:  wrap-reverse;
+  flex-direction: row;
+  /*
   margin: auto;
   display: block;
-
+*/
 }
+
 footer {
   background-color: #c7efcf;
   position: static;
