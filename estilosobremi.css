@@ -38,11 +38,15 @@ p {
   margin-right: 50px;
   margin-bottom: 50px;
 }
+
 #fotoDueña {
   width: 25%;
   height: 25%;
   margin: auto;
   display: block;
+  border-radius: 20px;
+  border: 10px;
+  border: 30px;
 }
 footer {
   background-color: #c7efcf;

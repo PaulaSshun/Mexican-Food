@@ -29,6 +29,7 @@ header nav a:hover {
   background-color: #eef5db;
   border-radius: 50px;
 }
+
 h1,h2,h4{
   padding: 10px;
 }
@@ -40,6 +41,7 @@ p {
   margin-left: 40px;
   margin-right: 40px;
   border-left: 40px;
+  padding-bottom: 40px;
   text-align: justify;
 
 }
@@ -47,12 +49,23 @@ p {
   margin: auto;
   margin-top: 20px;
 }
-.logo {
-  padding: 10px;
+.container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap:  wrap-reverse;
+  height: auto;
+  width: 100%;
   flex-direction: row;
+  justify-content: space-around;
+
+}
+.logo {
+  width: 20%;
+  height: 300px;
+  margin: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+
   /*
   margin: auto;
   display: block;
