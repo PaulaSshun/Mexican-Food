@@ -34,14 +34,14 @@ h1 {
 p {
   text-align: justify;
   padding-top: 40px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 90px;
+  margin-right: 90px;
   margin-bottom: 50px;
 }
 
 #fotoDueña {
   width: 25%;
-  height: 25%;
+  height: 15%;
   margin: auto;
   display: block;
   border-radius: 20px;
