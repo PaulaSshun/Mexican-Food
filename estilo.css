@@ -53,7 +53,6 @@ p {
   display: flex;
   flex-direction: row;
   flex-flow: row;
-  justify-content: center;
 }
 .logo {
   display: flex;
@@ -71,6 +70,7 @@ p {
 section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 footer {
