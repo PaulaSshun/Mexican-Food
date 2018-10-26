@@ -29,7 +29,11 @@ header nav a:hover {
   border-radius: 50px;
 }
 
-h1,h2{
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  padding: 10px;
+}
+h2{
   padding: 10px;
 }
 h3 {
