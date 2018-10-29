@@ -37,6 +37,7 @@ h2 {
   text-align: center;
 }
 .container {
+  max-width: 1000px;
   padding: 10px;
   margin-left: 200px;
   margin-right: 100px;
@@ -48,20 +49,37 @@ h2 {
   flex-flow: row;
 }
 .imagen1 {
+  max-width:400px;
   display: flex;
   width: 400px;
   height: 400px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin-right: 350px;
   margin-top: 25px;
   padding: 20px;
   flex-flow: row;
+
 }
 section {
   display: flex;
   justify-content: space-between;
-  flex-direction: row
+  flex-direction: row;
 
+}
+@media screen and (max-width: 400px) {
+  .contenedor {
+    flex-direction: column;
+  }
+  body {
+    background-color: blue;
+    width: 100%;
+  }
+  .imagen1{
+    flex: 50%;
+  }
+  section {
+    flex-wrap: wrap;
+  }
 }
 footer {
   background-color: #cce490;
