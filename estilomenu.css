@@ -51,7 +51,7 @@ h2 {
   display: flex;
   width: 400px;
   height: 400px;
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin-right: 350px;
   margin-top: 25px;
   padding: 20px;
