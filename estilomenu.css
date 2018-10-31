@@ -71,7 +71,7 @@ section {
     flex-wrap: wrap;
     flex:1;
     /*text-align: center;*/
-    /*width: 100%;*/
+    width: 100%;
     border: 10px;
   }
   body {
