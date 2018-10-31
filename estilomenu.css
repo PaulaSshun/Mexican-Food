@@ -58,7 +58,6 @@ h2 {
   margin-top: 25px;
   padding: 20px;
   flex-flow: row;
-
 }
 section {
   display: flex;
@@ -66,19 +65,20 @@ section {
   flex-direction: row;
 
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .contenedor {
     flex-direction: column;
     flex-wrap: wrap;
     flex:1;
-    text-align: center;
-    width: 100%;
+    /*text-align: center;*/
+    /*width: 100%;*/
+    border: 10px;
   }
   body {
     width: 100%;
     margin:0;
-    text-align: center;
-    font-size: 10px;
+    /*text-align: center;*/
+    font-size: 15px;
   }
   section {
     flex-wrap: wrap;
@@ -86,21 +86,13 @@ section {
   }
   .imagen1 {
     margin-right: 10px;
-    width: 100%
+    width: 100%;
   }
   .container {
-    margin:5px;
+    margin: 5px;
     padding: 10%;
-    text-align: center;
-    border-width: thick;
-  }
-  header {
-    width: 100%;
-    height: 100%;
-  }
-  footer {
-    width: 100%;
-    height: 100%;
+    text-align: left;
+    border: 10%;
   }
 }
 footer {
