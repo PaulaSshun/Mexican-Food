@@ -58,6 +58,7 @@ h2 {
   margin-top: 25px;
   padding: 20px;
   flex-flow: row;
+
 }
 section {
   display: flex;
@@ -72,7 +73,6 @@ section {
     flex:1;
     /*text-align: center;*/
     width: 100%;
-    border: 10px;
   }
   body {
     width: 100%;
@@ -92,7 +92,10 @@ section {
     margin: 5px;
     padding: 10%;
     text-align: left;
-    border: 10%;
+    border: 100%;
+  }
+  header {
+    width: 100%;
   }
 }
 footer {
