@@ -86,7 +86,8 @@ section {
   }
   .imagen1 {
     margin-right: 10px;
-    width: 100%;
+    width: 100px;
+    height: 100px;
   }
   .container {
     margin: 5px;
