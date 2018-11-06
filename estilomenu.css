@@ -66,6 +66,7 @@ section {
   justify-content: space-between;
   flex-direction: row;
 }
+/*Para hacer la lista flexible*/
 .descriptionMenuList {
   display: flex;
   flex-flow: row;
@@ -73,25 +74,19 @@ section {
   justify-content: space-around;
 }
 .descriptionMenu{
-  flex: 1;
+  flex: 2;
 }
 .descriptionMenuMiddle{
   flex: 5;
 }
 .descriptionMenuEnd{
-  align-items: center;
+  align-items: baseline;
 }
+/* Para poner los puntitos en la lista */
 .space {
   border-bottom-style: dotted;
   border-color: black;
-  border-width: 5;
-  /*background-color: red;*/
-}
-span {
-  /*border-bottom-style: dotted;
-  border-top: none;
-  border-left: none;
-  */
+  border-width: 6;
 }
 
 @media screen and (max-width: 400px) {
