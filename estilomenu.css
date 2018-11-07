@@ -39,7 +39,7 @@ h2 {
 .container {
   max-width: 1000px;
   padding: 10px;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-right: 100px;
   border-left: 40px;
   border-right: 40px;
@@ -50,10 +50,10 @@ h2 {
 
 }
 .imagen1 {
-  max-width:400px;
+  max-width: 500px;
   display: flex;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   box-sizing: border-box;
   margin-right: 350px;
   margin-top: 25px;
