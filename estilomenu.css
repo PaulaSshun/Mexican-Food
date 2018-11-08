@@ -47,12 +47,11 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: row;
-
 }
 .imagen1 {
   max-width: 500px;
   display: flex;
-  width: 600px;
+  width: 500px;
   height: 300px;
   box-sizing: border-box;
   margin-right: 350px;
@@ -89,8 +88,31 @@ section {
   border-color: black;
   border-width: 10;
 }
+footer {
+  background-color: #cce490;
+  position: static;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+}
 
 @media screen and (max-width: 400px) {
+  header {
+    background-color: #cce490;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2%;
+    text-align: justify;
+  }
+  header nav a {
+    color: #000000;
+    overflow: hidden;
+    display: inline-block;
+    padding: 6px 61px;
+    font-size: 30px;
+  }
   .contenedor {
     flex-direction: column;
     flex-wrap: wrap;
@@ -119,13 +141,4 @@ section {
     /*border: 100%;*/
 
   }
-}
-footer {
-  background-color: #cce490;
-  position: static;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  text-align: center;
 }

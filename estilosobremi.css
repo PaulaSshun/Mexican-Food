@@ -34,10 +34,10 @@ h1 {
 }
 p {
   text-align: justify;
-  padding-top: 40px;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-bottom: 50px;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 #fotoDueña {
@@ -46,7 +46,6 @@ p {
   margin: auto;
   display: block;
   border-radius: 20px;
-  border: 10px;
   border: 30px;
 }
 footer {
@@ -59,4 +58,27 @@ footer {
   overflow: hidden;
   text-align: center;
   padding-top: 50px;
+}
+@media screen and (max-width: 400px) {
+  p {
+    text-align: justify;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  header {
+    background-color: #cce490;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2%;
+    text-align: justify;
+  }
+  header nav a {
+    color: #000000;
+    overflow: hidden;
+    display: inline-block;
+    padding: 6px 61px;
+    font-size: 30px;
+  }
 }
