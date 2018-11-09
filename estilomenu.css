@@ -43,7 +43,7 @@ h2 {
   flex-direction: row;
   flex-flow: row;
   /*margin-right: 10%;*/
-  margin-left: 5%;
+  margin-left: 20%;
   /*padding: 10px;*/
   /*border-left: 40px;
   border-right: 40px;*/
@@ -61,6 +61,7 @@ h2 {
   padding: 10px;
   flex-flow: row;
   background-color: #eef5db;
+  margin-right: 20%;
 }
 section {
   display: flex;
