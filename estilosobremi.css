@@ -81,4 +81,8 @@ footer {
     padding: 6px 61px;
     font-size: 30px;
   }
+  #fotoDueña {
+    width: 100%;
+    margin: 2%;
+  }
 }

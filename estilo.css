@@ -41,7 +41,7 @@ h3 {
   padding-top: 10px;
 }
 p {
-  margin: 2% 10%;
+  margin: 2% 9%;
   text-align: justify;
 }
 #inicio {
@@ -55,10 +55,10 @@ p {
   display: flex;
   flex-direction: row;
   flex-flow: row;
-  /*margin:2%;*/
+  margin:2%;
 }
 .separationBetweenLogo {
-  padding: 10%;
+  padding: 9%;
 }
 .logo {
   display: flex;
@@ -94,14 +94,24 @@ footer {
     text-align: justify;
   }
   header nav a {
-    color: #000000;
+    /*color: #000000;
     overflow: hidden;
     display: inline-block;
     padding: 6px 61px;
-    font-size: 30px;
+    font-size: 30px;*/
+    margin:3%;
   }
   p {
-    margin: 7%;
+    /*margin: 7%;*/
     text-align: justify;
+  }
+  .container {
+    margin: 2%;
+  }
+  .separationBetweenLogo {
+    padding: 1%;
+  }
+  .logo {
+    width: 100%
   }
 }
