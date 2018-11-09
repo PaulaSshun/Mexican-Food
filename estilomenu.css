@@ -42,7 +42,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: row;
-  margin-right: 10%;
+  /*margin-right: 10%;*/
   margin-left: 5%;
   /*padding: 10px;*/
   /*border-left: 40px;
@@ -56,8 +56,8 @@ h2 {
   width: 400px;
   height: 404px;
   box-sizing: border-box;
-  /*margin-right: 350px;*/
-  margin-top: 25px;
+  margin-right: 3%;
+  /*margin-top: 25px;*/
   padding: 10px;
   flex-flow: row;
   background-color: #eef5db;
@@ -133,14 +133,15 @@ footer {
   section {
     flex-wrap: wrap;
     margin-left:0;
+    margin-right: 0
   }
   .imagen1 {
-    margin-right: 10px;
+    margin-right: 0;
     width: 100%;
   }
   .container {
-    margin: 5px;
-    padding: 10%;
+    margin: 0;
+    padding: 0;
     text-align: left;
     /*border: 100%;*/
 
