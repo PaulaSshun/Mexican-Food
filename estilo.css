@@ -58,9 +58,7 @@ p {
   flex-flow: row;
   margin:2%;
 }
-.separationBetweenLogo {
-  padding: 9%;
-}
+
 .logo {
   display: flex;
   box-sizing: border-box;
@@ -75,7 +73,7 @@ p {
 section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 footer {
